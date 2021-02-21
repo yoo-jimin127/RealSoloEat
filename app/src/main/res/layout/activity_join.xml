@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding = "10dp"
+        android:orientation="horizontal"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:textAlignment="center"
+            android:text = "식당명"
+            android:background="@color/bgColor"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id = "@+id/output1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding = "10dp"
+        android:layout_marginRight = "10dp"
+        android:layout_marginEnd = "10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "7"
+            android:textAlignment="center"
+            android:text = "시간"
+            android:background="@color/bgColor"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id = "@+id/output2_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text = "월"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id = "@+id/output2_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text = "일"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id = "@+id/output2_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text = "시"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding = "10dp"
+        android:layout_marginRight = "10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:textAlignment="center"
+            android:text = "모집인원"
+            android:background="@color/bgColor"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id = "@+id/output3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding = "10dp"
+        android:layout_marginRight = "10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:textAlignment="center"
+            android:text = "현재인원"
+            android:background="@color/bgColor"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id = "@+id/output4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop = "10dp"
+        android:layout_marginRight = "10dp"
+        android:layout_marginLeft = "10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:textAlignment="center"
+            android:text = "닉네임"
+            android:background="@color/bgColor"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:text = "성별"
+            android:background="@color/bgColor"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:text = "나이"
+            android:background="@color/bgColor"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:text = "레벨"
+            android:background="@color/bgColor"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop = "5dp"
+        android:layout_marginRight = "10dp"
+        android:layout_marginLeft = "10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id = "@+id/output5_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id = "@+id/output5_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id = "@+id/output5_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id = "@+id/output5_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop = "5dp"
+        android:layout_marginRight = "10dp"
+        android:layout_marginLeft = "10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id = "@+id/output6_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id = "@+id/output6_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id = "@+id/output6_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id = "@+id/output6_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop = "5dp"
+        android:layout_marginRight = "10dp"
+        android:layout_marginLeft = "10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id = "@+id/output7_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id = "@+id/output7_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id = "@+id/output7_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id = "@+id/output7_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight = "1"
+            android:layout_marginStart = "5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            tools:ignore="ExtraText"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = " 상세 설명 : "
+        android:padding = "15dp"
+        android:layout_margin="10dp"
+        android:textSize = "16dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id = "@+id/detailshow"
+        android:layout_marginLeft= "15dp"
+        android:layout_marginRight= "15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:textSize = "16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id = "@+id/joingroup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin = "5dp"
+            android:layout_weight = "1"
+            android:background="@drawable/btn_border"
+            android:text = "참여"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id = "@+id/joincancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin = "5dp"
+            android:layout_weight = "1"
+            android:background="@drawable/cluster_border"
+            android:text = "취소"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+</LinearLayout>

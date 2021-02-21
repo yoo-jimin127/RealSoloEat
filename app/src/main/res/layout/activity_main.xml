@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></fragment>
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="MENU"
+        android:textStyle="bold"
+        android:id="@+id/menu">
+    </Button>
+
+    <LinearLayout
+        android:background="@android:color/white"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:id="@+id/layoutdetail">
+        <RelativeLayout
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@android:color/holo_orange_dark"
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/restrant"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/event"
+                android:textSize="20sp"/>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0px"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:id="@+id/location"
+                android:textSize="20sp"/>
+            <ImageView
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sik" />
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="모집하기"
+        android:background="@android:color/holo_orange_dark"
+        android:id="@+id/inviteActivity">
+    </Button>
+    <Button
+        android:text="참여하기"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:layout_weight="1"
+        android:id="@+id/applyActivity">
+    </Button>
+
+</LinearLayout>
+    </LinearLayout>
+</FrameLayout>

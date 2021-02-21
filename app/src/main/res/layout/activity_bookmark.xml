@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="즐겨찾는 식당"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:background="#F3A412"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+
+    <ListView
+        android:id="@+id/main_listview_array"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="즐겨찾는 메이트"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:background="#F3A412"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+    <ListView
+        android:id="@+id/main_listview_simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:text="최근 추가된 메이트"
+        android:textColor="#2196F3"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <ListView
+        android:id="@+id/main_listview_cursor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

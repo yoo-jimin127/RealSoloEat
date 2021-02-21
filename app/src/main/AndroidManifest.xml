@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.soloeat">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.realsoloeat.ReadDbActivityEditinfo"></activity>
+        <activity android:name="com.example.realsoloeat.ReadDbActivityRegister" />
+        <activity android:name="com.example.realsoloeat.BookmarkActivity" />
+        <activity android:name="com.example.realsoloeat.EditinfoActivity" />
+        <activity android:name="com.example.realsoloeat.mypageActivity" />
+        <activity android:name="com.example.realsoloeat.LoginActivity" />
+        <activity android:name="com.example.realsoloeat.RegisterActivity" />
+        <activity android:name="com.example.realsoloeat.TodayeatActivity" />
+        <activity android:name="com.example.realsoloeat.listActivity4"/>
+        <activity android:name="com.example.realsoloeat.SpinnerActivity4"/>
+        <activity android:name="com.example.realsoloeat.listActivity3"/>
+        <activity android:name="com.example.realsoloeat.SpinnerActivity3"/>
+        <activity android:name="com.example.realsoloeat.listActivity2"/>
+        <activity android:name="com.example.realsoloeat.listActivity1"/>
+        <activity android:name="com.example.realsoloeat.JoinActivity"/>
+        <activity android:name="com.example.realsoloeat.SpinnerActivity2"/>
+        <activity android:name="com.example.realsoloeat.SpinnerActivity1"/>
+        <activity android:name="com.example.realsoloeat.ClusterActivity"/>
+        <activity
+            android:name="com.example.realsoloeat.NavActivity"
+            android:theme="@style/Theme.Transparent" />
+        <activity android:name="com.example.realsoloeat.MainActivity" />
+        <activity android:name="com.example.realsoloeat.IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- <meta-data -->
+        <!-- android:name="com.google.android.geo.API_KEY" -->
+        <!-- android:value="AIzaSyB2tWikvVW56cK7uFpbd-7L56uVd9XQ2CQ" /> -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAwKvkuT0LBTdfpr1D_dGCrnjETmhV5E0k" />
+    </application>
+
+</manifest>

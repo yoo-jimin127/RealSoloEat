@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.realsoloeat.NavActivity"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+
+            android:src="@drawable/sik"/>
+        <!--
+        android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            임시로 식기사진넣어둠.
+
+        사진 비율을 맞추는 코드-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사용자 OOO"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <!--개인정보를 입력하는것-->
+
+        <TextView
+            android:id="@+id/mypages"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="left|center_vertical"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="MY Pages">
+
+        </TextView>
+        <TextView
+            android:id="@+id/todayEat"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="left|center_vertical"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="오늘 뭐먹지">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="left|center_vertical"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="고르기">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingLeft="15dp"
+            android:gravity="left|center_vertical"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="지역별"
+            android:id="@+id/region" >
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingLeft="15dp"
+            android:gravity="left|center_vertical"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="음식별"
+            android:id="@+id/food">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingLeft="15dp"
+            android:gravity="left|center_vertical"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="인원별"
+            android:id="@+id/popularity" >
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingLeft="15dp"
+            android:gravity="left|center_vertical"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="시간별"
+            android:id="@+id/time" >
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="left|center_vertical"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="혼밥영상추천">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="left|center_vertical"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="커뮤니티">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/menuClose"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+</LinearLayout>
